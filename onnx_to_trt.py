@@ -141,7 +141,6 @@ def main():
             logger.info("Writing engine to {:}".format(args.output))
             f.write(engine.serialize())
         
-        logger.info(args.calibration_cache)
 
 
 if __name__ == "__main__":
